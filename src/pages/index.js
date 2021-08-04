@@ -37,7 +37,6 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <h1>Welcome to my Gatsby site!</h1>
-      <h3>Music I'm listening to</h3>
       <Section>
         <h3>Music I'm listening to</h3>
         <SpotifyTracks />
