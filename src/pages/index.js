@@ -1,18 +1,18 @@
 // Step 1: Import React
-import * as React from 'react'
+import * as React from 'react';
+import "../util/styles.css";
 import { SpotifyTracks } from '../components/spotify-tracks';
 import styled from 'styled-components'
 import { dimensions } from '../util/theme';
 import { TraktMovies } from '../components/trakt-movies';
-import {
-  container,
-  heading,
-  navLinks,
-  navLinkItem,
-  navLinkText,
-  siteTitle,
-  h1,
-} from '../components/layout.module.css'
+import { Text } from '../components/intro2';
+import IntroPic from '../components/intro_pic';
+import "@fontsource/georama";
+import Delayed from '../components/Delayed';
+import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
+
+
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation"
 
 const IntroContainer = styled.main`
   display: flex;
@@ -36,7 +36,13 @@ const IndexPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <h1>Welcome to my Gatsby site!</h1>
+      <IntroContainer>
+      <Delayed waitBeforeShow={500}>
+        <IntroPic opacityTransition="2500"/>
+        </Delayed>
+        <br />
+        <Text />
+      </IntroContainer>
       <Section>
         <h3>Music I'm listening to</h3>
         <SpotifyTracks />

@@ -10,6 +10,10 @@ module.exports = {
             `gatsby-plugin-styled-components`,
             `gatsby-plugin-remote-images`,
             `gatsby-transformer-sharp`,
+            'react-rough-notation',
+            'typewriter-effect',
+            'prop-types',
+            'react-image-fade-in',
             {
               resolve: `gatsby-source-filesystem`,
               options: {
