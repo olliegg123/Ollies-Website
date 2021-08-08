@@ -1,0 +1,27 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+
+li {
+    font-family: "Helvetica";
+    font-size: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+.flex-item {
+width: 65%;
+margin: 5px;
+line-height: 50px;
+font-size: 2em;
+text-align: center;
+}
+  
+.center { 
+    justify-content: center; 
+  } 

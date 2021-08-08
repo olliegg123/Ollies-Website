@@ -4,7 +4,7 @@ import ImageFadeIn from "react-image-fade-in";
  
 class IntroPic extends Component {
   render() {
-    return <ImageFadeIn width={640} height={480} src="https://static.independent.co.uk/2021/05/31/16/newFile-3.jpg?width=300" />;
+    return <ImageFadeIn width={300} height={300} src="/src/images/ollie_pic.png" />;
   }
 }
 

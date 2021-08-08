@@ -8,10 +8,10 @@ module.exports = {
             "gatsby-remark-images-grid",
             "gatsby-plugin-sharp",
             `gatsby-plugin-styled-components`,
-            `gatsby-plugin-remote-images`,
             `gatsby-transformer-sharp`,
             'react-rough-notation',
             'typewriter-effect',
+            'gatsby-plugin-anchor-links',
             'prop-types',
             'react-image-fade-in',
             {
@@ -19,6 +19,13 @@ module.exports = {
               options: {
                 name: `images`,
                 path: `${__dirname}/src/images/`,
+              },
+            },
+            {
+              resolve: `gatsby-source-filesystem`,
+              options: {
+                name: `images`,
+                path: `${__dirname}/public/static/`,
               },
             },
             {

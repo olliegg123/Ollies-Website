@@ -73,3 +73,8 @@ input[type="color"] {
 label {
   display: block;
 }
+
+.gatsby-image-wrapper-constrained {
+  height: 100%;
+  display: block;
+}

@@ -48,6 +48,7 @@ export const SpotifyTracks: React.FC<SpotifyTracksProps> = ({ limit }) => {
           <GatsbyImage
             image={e.node.image.localFile.childImageSharp.gatsbyImageData}
             alt={`Album cover for ${e.node.name}`}
+            imgStyle={{ objectFit: 'contain' }}
           />
           <MediumTitle>
             

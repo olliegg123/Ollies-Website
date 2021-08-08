@@ -57,7 +57,7 @@ export const TraktMovies: React.FC<TraktMoviesProps> = ({ limit }) => {
               image={e.node.tmdb_metadata.poster.localFile.childImageSharp.gatsbyImageData}
               alt={`Movie poster for ${e.node.tmdb_metadata.title}`}
             />
-            <MediumTitle>{e.node.last_watched_at}</MediumTitle>
+            <MediumTitle>{e.node.tmdb_metadata.title}</MediumTitle>
           </Medium>
         ))}
     </MediaGrid>

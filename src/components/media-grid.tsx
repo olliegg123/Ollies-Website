@@ -8,6 +8,7 @@ export const MediaGrid = styled.div`
   overflow: visible;
   display: grid;
   grid-gap: 1rem;
+  height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 `;
 

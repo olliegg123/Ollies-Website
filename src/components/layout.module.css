@@ -30,3 +30,7 @@
 .h1 {
   color: red
 }
+
+#gatsby-image-wrapper-constrained {
+  height: 100%;
+}
