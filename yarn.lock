@@ -1688,7 +1688,7 @@
     "schema-utils" "^2.6.5"
     "source-map" "^0.7.3"
 
-"@reach/router@^1.0.0", "@reach/router@^1.3.3", "@reach/router@^1.3.4":
+"@reach/router@^1.3.4":
   "integrity" "sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA=="
   "resolved" "https://registry.npmjs.org/@reach/router/-/router-1.3.4.tgz"
   "version" "1.3.4"
@@ -2657,6 +2657,13 @@
   "integrity" "sha512-5LMaDRWm8ZFPAEdzTYmgjjEdj1YnQcpfrVajO/sn/LhbpGp0Y0H64c2hLZI1gRMxfA+w1S71Uc/nHaOXgcCvGg=="
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.3.2.tgz"
   "version" "4.3.2"
+
+"axios@^0.19.2":
+  "integrity" "sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.19.2.tgz"
+  "version" "0.19.2"
+  dependencies:
+    "follow-redirects" "1.5.10"
 
 "axios@^0.21.0", "axios@^0.21.1":
   "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
@@ -4526,6 +4533,13 @@
   dependencies:
     "ms" "2.1.2"
 
+"debug@=3.1.0":
+  "integrity" "sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "ms" "2.0.0"
+
 "debug@~4.3.1":
   "integrity" "sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz"
@@ -6117,6 +6131,13 @@
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz"
   "version" "1.14.1"
 
+"follow-redirects@1.5.10":
+  "integrity" "sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz"
+  "version" "1.5.10"
+  dependencies:
+    "debug" "=3.1.0"
+
 "for-each@^0.3.3":
   "integrity" "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw=="
   "resolved" "https://registry.npmjs.org/for-each/-/for-each-0.3.3.tgz"
@@ -6335,15 +6356,6 @@
   dependencies:
     "core-js-compat" "^3.6.5"
 
-"gatsby-link@^2.11.0":
-  "integrity" "sha512-AYXxndlSx5mnYv+/PBPdPBRvdv1LeSGE3WO8uYj2ReYDSbhiAlF3KKz30D62ErartXP0deySPtRKx4Dd3nCFYw=="
-  "resolved" "https://registry.npmjs.org/gatsby-link/-/gatsby-link-2.11.0.tgz"
-  "version" "2.11.0"
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@types/reach__router" "^1.3.7"
-    "prop-types" "^15.7.2"
-
 "gatsby-link@^3.11.0":
   "integrity" "sha512-kOishEy33DWl+16ByFqKigxA1W+XdKnFgrG5FAu9a9hAv5FF35wGLx2KEd48ccclK2pBDx7viiXP2lqYjpV7SQ=="
   "resolved" "https://registry.npmjs.org/gatsby-link/-/gatsby-link-3.11.0.tgz"
@@ -6429,14 +6441,6 @@
     "globby" "^11.0.2"
     "lodash" "^4.17.20"
 
-"gatsby-plugin-remote-images@^2.4.0":
-  "integrity" "sha512-xf3WC6VvgnzTmf2y5qM9CxSjR3TYRDCNG+UC4Y86rJNgi9DFX1AN3NXJu+o4nc2AFNFItaH/GqttV3KKfNh7cw=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-remote-images/-/gatsby-plugin-remote-images-2.4.0.tgz"
-  "version" "2.4.0"
-  dependencies:
-    "gatsby-source-filesystem" "^2.3.14"
-    "lodash" "^4.17.15"
-
 "gatsby-plugin-sharp@*", "gatsby-plugin-sharp@^2.0.0-beta.3", "gatsby-plugin-sharp@^2.14.4":
   "integrity" "sha512-Q4C+mKbF/sJv1oTEyPO5CLOS+cwziZoAxH35lSWVONRLinlv752QKR8gqVxfnON2HMjWw4OZ+hGQ0CmvFrj5Yg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.14.4.tgz"
@@ -6478,6 +6482,14 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+"gatsby-plugin-trigger-deploy@^0.0.2":
+  "integrity" "sha512-WnaLW+lzOmuCZrksIR1X4FuN98tCNY40i/rQNQomdYStwAnTIT2S1J/fS/Nf0Ht6wJj4o+SzzsF/HLXJ7Pz0Ow=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-trigger-deploy/-/gatsby-plugin-trigger-deploy-0.0.2.tgz"
+  "version" "0.0.2"
+  dependencies:
+    "axios" "^0.19.2"
+    "body-parser" "^1.19.0"
+
 "gatsby-plugin-typescript@^2.12.1":
   "integrity" "sha512-p32qJVDi5Xw1Oo5vLMUXdRBxSDlMrfxTGb7etMAsVfyLRlRhMLb2YsuXJIvN1IfybQ6Z3EbhlH293cpxn5jozg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.12.1.tgz"
@@ -6505,13 +6517,6 @@
   dependencies:
     "babel-runtime" "^6.26.0"
     "webfontloader" "^1.6.28"
-
-"gatsby-react-router-scroll@^3.7.0":
-  "integrity" "sha512-8sm04EQac7fccJZlllFEo349wAlNEuPVu35juuL0hgMDTyWlk4nPwPH/ACdpn2MgpEmrTSfp2yPxyzaRKVyzeQ=="
-  "resolved" "https://registry.npmjs.org/gatsby-react-router-scroll/-/gatsby-react-router-scroll-3.7.0.tgz"
-  "version" "3.7.0"
-  dependencies:
-    "@babel/runtime" "^7.12.5"
 
 "gatsby-react-router-scroll@^4.11.0":
   "integrity" "sha512-7yaVUpQ3MDlZuL16inkVEnni/MP1vSYdFWtoGGwYNiAKOwSQpavhndU6iODALqcR2KlTxRs+ZJLbbCUjCzIx/Q=="
@@ -6593,7 +6598,7 @@
     "unified" "^9.2.0"
     "unist-util-visit" "^2.0.3"
 
-"gatsby-source-filesystem@*", "gatsby-source-filesystem@^2.0.22", "gatsby-source-filesystem@^2.1.8", "gatsby-source-filesystem@^2.11.1", "gatsby-source-filesystem@^2.3.14":
+"gatsby-source-filesystem@*", "gatsby-source-filesystem@^2.0.22", "gatsby-source-filesystem@^2.1.8", "gatsby-source-filesystem@^2.11.1":
   "integrity" "sha512-Ao526Mmhm8KkF+0Tvf9Le5kKnqX7kgC1wecp82BW2KLQgdtG7UIgmHvG6PkjuFNiJ2ghXPC3vRK3J/vDPyLtkA=="
   "resolved" "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-2.11.1.tgz"
   "version" "2.11.1"
@@ -6674,7 +6679,7 @@
     "semver" "^7.3.4"
     "sharp" "^0.27.0"
 
-"gatsby@^2.0.0", "gatsby@^2.0.32", "gatsby@^2.10.8", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.32.13", "gatsby@^3.0.0", "gatsby@>=2", "gatsby@>=2.0.0", "gatsby@>=2.2.0", "gatsby@>2.0.15":
+"gatsby@^2.0.0", "gatsby@^2.0.32", "gatsby@^2.10.8", "gatsby@^2.12.1", "gatsby@^2.2.0", "gatsby@^2.24.79", "gatsby@^2.32.13", "gatsby@^3.0.0", "gatsby@>=2", "gatsby@>=2.0.0", "gatsby@>2.0.15":
   "integrity" "sha512-BYfiI/k+t8m/IzSkWZH8Cc0v7rJw6giSjG5sX25LWdfkQMqUvg/Gn6OC8BWwRPXnEwe7x0n5jbH+peO0p34ZHQ=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-2.32.13.tgz"
   "version" "2.32.13"
@@ -6751,11 +6756,9 @@
     "gatsby-core-utils" "^1.10.1"
     "gatsby-graphiql-explorer" "^0.11.0"
     "gatsby-legacy-polyfills" "^0.7.1"
-    "gatsby-link" "^2.11.0"
     "gatsby-plugin-page-creator" "^2.10.2"
     "gatsby-plugin-typescript" "^2.12.1"
     "gatsby-plugin-utils" "^0.9.0"
-    "gatsby-react-router-scroll" "^3.7.0"
     "gatsby-telemetry" "^1.10.2"
     "glob" "^7.1.6"
     "got" "8.3.2"
