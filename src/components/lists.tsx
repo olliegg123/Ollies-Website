@@ -14,9 +14,9 @@ export const AllLists = () => {
     <RoughNotation animationDelay={delay} order="1" type="box" show="true" strokeWidth="2" iterations="3">
         <div className="flex-container center">
     
-    <li className="flex-item">
+    <li className="flex-item listItem">
     <RoughNotation animationDelay={delay} order="2" type="underline" show="true" strokeWidth="1">
-        <strong>Top 5 Burgers.</strong>
+        <strong className="listTitle">Top 5 Burgers.</strong>
     </RoughNotation>
         <ol>
            <li>Hamburgueria do Largo<br /><a href="https://www.facebook.com/hamburgueriadolargofz/">Fuseta, Portugal 🇵🇹</a></li><p></p>
@@ -26,9 +26,10 @@ export const AllLists = () => {
            <li>Barrels<br /><a href="https://barrels.se/en/home/">Stockholm, Sweden 🇸🇪</a></li>
          </ol>
     </li>
-    <li className="flex-item">
+    <hr />
+    <li className="flex-item listItem">
     <RoughNotation animationDelay={delay} order="3" type="underline" show="true" strokeWidth="1">
-    <strong>Top 5 Beers.</strong>
+    <strong className="listTitle">Top 5 Beers.</strong>
     </RoughNotation>
         <ol>
            <li>Life & Death <br /><a href="https://www.vocationbrewery.com/products/life-death">Vocation - Hebden Bridge</a></li><p></p>
@@ -38,19 +39,21 @@ export const AllLists = () => {
            <li>Shepherds Warning<br /><a href="https://wildweatherales.com/product/440ml-shepherds-warning/">Wild Weather Ales - Reading</a></li>
          </ol>
     </li>
-    <li className="flex-item">
+    <hr />
+    <li className="flex-item listItem">
     <RoughNotation animationDelay={delay} order="4" type="underline" show="true" strokeWidth="1">
-    <strong>
-        Next 5 Trips.</strong>
+    <strong className="listTitle">
+        Next 4 Trips.</strong>
     </RoughNotation>
         <ol>
-           <li>Hornsea <br />End of August.</li><p></p>
            <li>European Mini-Interrailing<br />Middle of September</li><p></p>
-           <li>Florida & Southern US<br />October.</li><p></p>
+           <li>Western Mediterranean Cruise<br />October.</li><p></p>
            <li>LA & Mexican Riviera<br />December</li><p></p>
            <li>Bucharest<br />February.</li><p></p>
+           <li>Krakow<br />March.</li><p></p>
          </ol>
     </li>
+    <hr />
         <br />
     </div>
     </RoughNotation>

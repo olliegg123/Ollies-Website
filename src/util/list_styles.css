@@ -25,3 +25,36 @@ text-align: center;
 .center { 
     justify-content: center; 
   } 
+
+hr {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .rough-notation {
+    display: none;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .listItem {
+    align-self: center;
+    padding-right: 10%;
+    width: 100%;
+  }
+
+  svg {
+    visibility: hidden;
+  }
+
+  .listTitle {
+    padding-left: 10%;
+  }
+  hr {
+    border-top: 2px dashed black;
+    width:100%;
+    visibility: visible;
+  }
+}
