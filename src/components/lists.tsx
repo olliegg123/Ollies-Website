@@ -21,10 +21,10 @@ export const AllLists = () => {
         <ol>
            <li>Hamburgueria do Largo<br /><a href="https://www.facebook.com/hamburgueriadolargofz/">Fuseta, Portugal 🇵🇹</a></li><p></p>
            <li>HOG2<br /><a href="https://www.facebook.com/HOG2PowstancowWielkopolskich/">Krakow, Poland 🇵🇱</a></li><p></p>
+           <li>Zing<br /><a href="https://www.facebook.com/HOG2PowstancowWielkopolskich/">Budapest, Hungary 🇭🇺</a></li><p></p>
            <li>Smokey Burger<br /><a href="https://www.facebook.com/Smokeys-Burgers-Shakes-2261663100594478/">Southampton, UK 🇬🇧</a></li><p></p>
            <li>Burgermeister<br /><a href="https://burger-meister.de/">Berlin, Germany 🇩🇪</a></li><p></p>
-           <li>Barrels<br /><a href="https://barrels.se/en/home/">Stockholm, Sweden 🇸🇪</a></li>
-         </ol>
+      </ol>
     </li>
     <hr />
     <li className="flex-item listItem">
