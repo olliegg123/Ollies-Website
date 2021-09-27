@@ -21,7 +21,7 @@ export const AllLists = () => {
         <ol>
            <li>Hamburgueria do Largo<br /><a href="https://www.facebook.com/hamburgueriadolargofz/">Fuseta, Portugal 🇵🇹</a></li><p></p>
            <li>HOG2<br /><a href="https://www.facebook.com/HOG2PowstancowWielkopolskich/">Krakow, Poland 🇵🇱</a></li><p></p>
-           <li>Zing<br /><a href="https://www.facebook.com/HOG2PowstancowWielkopolskich/">Budapest, Hungary 🇭🇺</a></li><p></p>
+           <li>Zing Burger<br /><a href="https://www.zingburger.hu/en/">Budapest, Hungary 🇭🇺</a></li><p></p>
            <li>Smokey Burger<br /><a href="https://www.facebook.com/Smokeys-Burgers-Shakes-2261663100594478/">Southampton, UK 🇬🇧</a></li><p></p>
            <li>Burgermeister<br /><a href="https://burger-meister.de/">Berlin, Germany 🇩🇪</a></li><p></p>
       </ol>
@@ -46,9 +46,9 @@ export const AllLists = () => {
         Next 4 Trips.</strong>
     </RoughNotation>
         <ol>
-           <li>European Mini-Interrailing<br />Middle of September</li><p></p>
            <li>Western Mediterranean Cruise<br />October.</li><p></p>
            <li>LA & Mexican Riviera<br />December</li><p></p>
+           <li>Prague<br />January.</li><p></p>
            <li>Bucharest<br />February.</li><p></p>
            <li>Krakow<br />March.</li><p></p>
          </ol>
