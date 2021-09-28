@@ -47,10 +47,10 @@ export const AllLists = () => {
     </RoughNotation>
         <ol>
            <li>Western Mediterranean Cruise<br />October.</li><p></p>
+           <li>Budapest<br />November.</li><p></p>
            <li>LA & Mexican Riviera<br />December</li><p></p>
            <li>Prague<br />January.</li><p></p>
            <li>Bucharest<br />February.</li><p></p>
-           <li>Krakow<br />March.</li><p></p>
          </ol>
     </li>
     <hr />
