@@ -43,14 +43,14 @@ export const AllLists = () => {
     <li className="flex-item listItem">
     <RoughNotation animationDelay={delay} order="4" type="underline" show="true" strokeWidth="1">
     <strong className="listTitle">
-        Next 4 Trips.</strong>
+        Next 5 Trips.</strong>
     </RoughNotation>
         <ol>
+           <li>Gdansk<br />October.</li><p></p>
+           <li>Milan<br />October.</li><p></p>
            <li>Western Mediterranean Cruise<br />October.</li><p></p>
            <li>Budapest<br />November.</li><p></p>
            <li>LA & Mexican Riviera<br />December</li><p></p>
-           <li>Prague<br />January.</li><p></p>
-           <li>Bucharest<br />February.</li><p></p>
          </ol>
     </li>
     <hr />
